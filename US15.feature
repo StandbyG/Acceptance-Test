@@ -8,9 +8,17 @@ When visualice la opción de “Seguimiento”
 And  haga clic en la opción
 Then  la aplicación le mostrará una pantalla donde visualizará la ubicación exacta del producto
 
+Example:
+| Boton Seguimiento |
+       Aceptar
+
 Scenario: El comprador se encuentra en la pantalla después de realizar la compra con delivery y no acepta la opcion de seguimiento
 Given el comprador se encuentra en la pantalla después de realizar la compra
 When visualice la opción de “Seguimiento”
 And no haga clic en la opción
 Then su compra no procederá 
 And la aplicación le mostrará una pantalla resumen de su pedido
+
+Example:
+| Boton Seguimiento |
+    No Aceptar
