@@ -12,8 +12,8 @@ Then el sistema procede mostrarle todos los productos con ese nombre en una pant
 
 Example: 
  |Nombre del producto|
-        Arroz 
-        Cafe
+        'Arroz' 
+        'Cafe'
 
 Scenario: No ingresa en el buscador el nombre de un producto existente
 Given que el comprador se encuentra en la pantalla de inicio 

@@ -18,3 +18,6 @@ Then el sistema procede mostrarle en la pantalla todos los productos con los pre
 Example:
 |Button Precios|
     No Aceptar
+
+
+    

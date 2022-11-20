@@ -9,8 +9,8 @@ Then el sistema le muestra un mensaje de “Se agregó con éxito los productos 
 
 Example:
 |ID Producto| Nombre Producto | Cantidad |
-    14            ARROZ            1
-    15           AZUCAR            1
+    14            'ARROZ'            1
+    15           'AZUCAR'            1
 
 Scenario: No se encuentran en la tienda todos los productos de la lista de compras.
 Given  el comprador se encuentra en el apartado de lista
@@ -20,5 +20,5 @@ Then se le mostrará un mensaje de “Artículo (tal) no fue encontrado, retirar
 
 Example:
 |ID Producto| Nombre Producto | Cantidad |
-    14            ARCZR            1
-    15           @ZUCAR            1
+    14            'ARCZR'           1
+    15           '@ZUCAR'           1
