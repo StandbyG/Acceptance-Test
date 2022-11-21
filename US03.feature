@@ -7,5 +7,5 @@ Scenario: Ingreso de la aplicación como vendedor
     Then veo la pantalla de inicio de sesión
 
 Example:
-| Usuario        | Contraseña
+| Usuario        | Contraseña|
   José Martinez    123456789

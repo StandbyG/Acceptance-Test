@@ -19,7 +19,7 @@ And haga clic en la sección “Clientes”
 And seleccione el cliente en cuestión, en el cual salga error
 Then el sistema procederá a mostrar la pantalla con el mensaje “Ha ocurrido un problema, dicho cliente no existe o no es posible acceder a sus datos, vuelva a intentarlo”
 Example:
-Visualizar reputación de comprador:
+|Visualizar reputación de comprador:|
 Juan – Pulsa para conocer más detalles
 No se ha podido acceder a los datos de Juan, actualice la pagina y vuelva a intentarlo
 

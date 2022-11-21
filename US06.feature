@@ -7,7 +7,7 @@ When obtengo el producto se visualizará el descuento obtenido
 Then al finalizar la compra saldrá un monto con el descuento total de todos los productos comprados 
 
 Example:
-| Nombre|  Ingresar Comando de búsqueda     | Mostrar resultados
+| Nombre|  Ingresar Comando de búsqueda     | Mostrar resultados|
    Luis   Buscar productos con mejor precio   Lista de productos más baratos
 
 
@@ -18,5 +18,5 @@ When ingrese el nombre del producto le aparecerá un listado
 Then podrá ver la lista de los productos en orden de precio.
 
 Example:
-| Nombre |  Ingresar Comando de búsqueda       | Mostrar resultados
+| Nombre |  Ingresar Comando de búsqueda       | Mostrar resultados|
    Luis    Productos de menor a mayos precio     Lista de productos, según precio mas bajo

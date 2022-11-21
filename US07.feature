@@ -8,7 +8,7 @@ When finalice el mes revisará su registro
 Then sabrá cuales fueron los productos más vendidos en el mes 
 
 Example:
-| Nombre|  Ingresar comando de búsqueda   | Realizar la busqueda
+| Nombre|  Ingresar comando de búsqueda   | Realizar la busqueda|
    Juan   Productos más vendidos del mes      Presionar “ACEPTAR”
 
 Scenario: Visualizar el monto de ganancias que se obtienen en la semana.
@@ -18,6 +18,6 @@ When ingrese el monto de las ventas realizadas
 Then aparecerá el monto desagregado en costo y ganancia
 
 Example:
-| Nombre| Ingresar su cuenta   | Ver ingresos de la semana
+| Nombre| Ingresar su cuenta   | Ver ingresos de la semana|
    Juan    juanchavesmail.com       Presionar “/S.”
 

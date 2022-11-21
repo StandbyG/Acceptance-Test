@@ -10,8 +10,8 @@ And tener un registro de cuáles son los mejores y peores
 Example:
 |Calificar al cliente:|
 Seleccione la cantidad de estrellas que cree que merece el cliente
-      1 	 	    2 		     3		    4 		        5	 
-Horrible	Malo		Regular	Bueno		Muy bueno
+|      1 |	|  2 |		|   3	|	|   4 |		|    5	  |
+|Horrible|	|Malo|		|Regular|	|Bueno|		|Muy bueno|
 
 Scenario: Calificación mediante cantidad de compras.
 Given el vendedor tiene un registro de qué personas son las que compran sus productos

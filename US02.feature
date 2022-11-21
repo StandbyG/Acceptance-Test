@@ -7,5 +7,5 @@ Scenario:  Ingreso como comprador
     Then veo la pantalla de inicio de la aplicación
 
 Example:
-| Usuario    | Contraseña
+| Usuario    | Contraseña |
   Juan Perez    12345678

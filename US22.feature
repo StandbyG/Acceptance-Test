@@ -18,8 +18,8 @@ And le dé en el apartado “Agregar un producto”
 And le salga un error al agregar un producto
 Then el sistema procede a mostrarle el mensaje: “Ha ocurrido un error a la hora de agregar un producto, actualice la página e inténtelo de nuevo”
 Example:
-Mis productos:
+|Mis productos:|
 Vacío
-Agregar productos:
+|Agregar productos:|
 -	Pulsa para agregar productos
 -	Ha ocurrido un error, actualiza la página y vuelve a intentarlo

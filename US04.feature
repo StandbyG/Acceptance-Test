@@ -19,5 +19,5 @@ And se abrirá una ventana que pregunte al usuario sí está seguro, y éste pod
 Then se mostrará una ventana indicando que se realizó el reporte de forma adecuada.
 
 Example:
-|motivo                     | comentario
+|motivo                     | comentario|
   No llegó el producto          "No llegó el producto, no se pudo realizar la entrega"

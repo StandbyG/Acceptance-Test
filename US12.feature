@@ -9,8 +9,8 @@ When agrega productos a la lista
         And hace click en la opción de “Agregar al carrito de compras los productos de la lista”
 Then el sistema le muestra un mensaje de “Se agregó con éxito los productos de la lista al carrito de compras” 
 Example: 
-      Lista de productos        | Agregar lista al carrito
-      'Sal, azucar, etc'          Presiona 'Aceptar'
+      |Lista de productos        | Agregar lista al carrito|
+      'Sal, azucar, etc'             Presiona 'Aceptar'
 
 Scenario: No se encuentran en la tienda todos los productos de la lista de compras.
 
@@ -20,5 +20,5 @@ When agrega productos que no se encuentran en la tienda a la lista de compras
 Then se le mostrará un mensaje de “Artículo (tal) no fue encontrado" 
         And se mostrará el botón de “Eliminar producto”
 Example: 
-      Lista de productos            | Agregar lista al carrito
+      |Lista de productos            | Agregar lista al carrito|
       '"producto x", azucar, etc'     Presiona 'Aceptar'

@@ -8,7 +8,7 @@ And escoja el producto deseado
 And haga clic en el
 Then podrá cambiar el precio del producto seleccionado
 Example:
-Mis productos:
+|Mis productos:|
 -	Mandarina – Pulsa para añadir el precio del producto
 -	El precio de “Mandarina” se ha actualizado correctamente
 -	Mandarina – S/6.00 kg
@@ -20,6 +20,6 @@ And escoja el producto deseado
 And haga clic en él, en el cuál salga error
 Then el sistema procede a mostrar una pantalla con el mensaje: “Actualiza la página y vuélvelo a intentar”
 Example:
-Mis productos:
+|Mis productos:|
 -	Mandarina – Pulsa para añadir el precio del producto
 -	Actualiza la página y vuélvelo a intentar

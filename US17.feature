@@ -12,7 +12,7 @@ When está navegando en la pantalla
 Then el sistema procede mostrarle todos los productos con ese nombre en una pantalla 
 
 Example:
-Nombre del producto
+|Nombre del producto|
         'Arroz'
         'Cafe'
 
@@ -23,7 +23,7 @@ When está navegando en la pantalla
             And ingresa el nombre de un producto que no existe
 Then el sistema procede mostrarle una pantalla con el mensaje “No se encontraron productos con ese nombre”
 Example:
-Nombre del producto
+|Nombre del producto|
         '       '
         '       '
 

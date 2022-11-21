@@ -9,7 +9,7 @@ And quedará como método de pago predeterminado
 Then solo será necesario agregar el código de seguridad y aceptar el pago
 
 Example:
- | Nombre |  Ingresar número de tarjeta| Vincular número de tarjeta
+ | Nombre |  Ingresar número de tarjeta| Vincular número de tarjeta|
    Matías           979514237               Presionar “ACEPTAR”
 
 
@@ -20,5 +20,5 @@ When finalice su compra aparecerá el número de su tarjeta
 Then ingresará la clave de seguridad y dará “Aceptar”
 
 Example:
- | Nombre |  Ingresar número de tarjeta| Vincular número de tarjeta
+ | Nombre |  Ingresar número de tarjeta| Vincular número de tarjeta|
    Matías           871246004               Presionar “ACEPTAR”
