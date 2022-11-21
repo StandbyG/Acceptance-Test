@@ -11,6 +11,9 @@ Scenario: Registro de un comprador
     And debo recibir un email de confirmación de registro
     Then saldrá una ventana indicando el registro exitoso
 
+Example:
+| nombre | apellido | email              | contraseña | confirmar contraseña |
+   Juan      Perez     jperez@gmail.com     12345678    12345678            
 Scenario: Registro de un vendedor
 
     Given soy un vendedor
@@ -19,3 +22,7 @@ Scenario: Registro de un vendedor
     And debo aceptar los términos y condiciones
     And debo recibir un email de confirmación de registro
     Then saldrá una ventana indicando el registro exitoso
+
+Example:
+| nombre | apellido   | email                  | contraseña  | confirmar contraseña |
+   José      Martinez     jmartinez@gmail.com     123456789    123456789 
